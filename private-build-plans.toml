@@ -2,8 +2,9 @@
 family = "Ioskeley Mono"
 spacing = "normal"
 serifs = "sans"
-noCvSs = true
-exportGlyphNames = false
+noCvSs = false
+exportGlyphNames = true
+buildTextureFeature = true
 
 [buildPlans.IoskeleyMono.variants.design]
 one = "no-base"
