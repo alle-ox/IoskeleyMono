@@ -48,7 +48,7 @@ jobs:
         run: |
           cd iosevka-src
           npm install
-          npm run build -- contents::IoskeleyMono
+          npm run build -- --jCmd=2 contents::IoskeleyMono
 
       # 7. Verify build output exists for all formats
       - name: Verify build output
